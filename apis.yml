@@ -1,8 +1,26 @@
 aid: heart-aerospace
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/heart-aerospace.png
 name: Heart Aerospace
-description: 'Heart Aerospace is a company surfaced as a portfolio company of eqt-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: sustainable-transport. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Heart Aerospace is a hybrid-electric aircraft manufacturer founded in
+  2019 and headquartered in Torrance / Los Angeles, California, working to decarbonize
+  and lower the cost of regional air travel. The company is developing the X1, a full-scale
+  hybrid-electric technology demonstrator, and the ES-30, a 30-seat regional production
+  aircraft, backed by strategic airline partners including United Airlines and Air
+  Canada and investors such as Breakthrough Energy Ventures, Lowercarbon Capital,
+  EQT Ventures, and Y Combinator. Heart Aerospace publishes no public developer or
+  API surface; this profile tracks the company as an API Evangelist network entry
+  in the sustainable-transport sector.'
 url: https://raw.githubusercontent.com/api-evangelist/heart-aerospace/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +28,18 @@ x-backed-by:
 - eqt-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Sustainable Transport
+- Aviation
+- Aerospace
+- Electric Aircraft
+- Regional Aviation
+- Climate Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/heart-aerospace-domain-security.yml
 - type: Website
   url: https://heartaerospace.com/
+- type: Blog
+  url: https://heartaerospace.com/newsroom
+- type: Support
+  url: https://heartaerospace.com/contact
+- type: About
+  url: https://heartaerospace.com/company
+- type: Careers
+  url: https://heartaerospace.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/heart-aerospace
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
